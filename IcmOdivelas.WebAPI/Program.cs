@@ -4,10 +4,17 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 //services DbContext
-builder.Services.AddDbContext<DataContext> (
-                context => context.UseSqlServer(builder.Configuration.GetConnectionString("Default"))
-                
-);
+// Configure the connection string
+var connectionString = builder.Configuration.GetConnectionString("MySqlConnection");
+
+// Configure the MySQL server version
+var serverVersion = new MySqlServerVersion(new Version(8, 0, 26));
+
+builder.Services.AddDbContext<DataContext>(options =>
+{
+    options.UseMySql(connectionString, serverVersion);
+});
+
 // Register IRepository and Repository
 builder.Services.AddScoped<IRepository, Repository>();
 

@@ -107,3 +107,5 @@ C:\Users\DELL\OneDrive\Desktop\Projetos API\ICMOdivelas\IcmOdivelas.WebAPI\obj\D
 C:\Users\DELL\OneDrive\Desktop\Projetos API\ICMOdivelas\IcmOdivelas.WebAPI\obj\Debug\net7.0\IcmOdivelas.WebAPI.pdb
 C:\Users\DELL\OneDrive\Desktop\Projetos API\ICMOdivelas\IcmOdivelas.WebAPI\obj\Debug\net7.0\IcmOdivelas.WebAPI.genruntimeconfig.cache
 C:\Users\DELL\OneDrive\Desktop\Projetos API\ICMOdivelas\IcmOdivelas.WebAPI\obj\Debug\net7.0\ref\IcmOdivelas.WebAPI.dll
+C:\Users\DELL\OneDrive\Desktop\Projetos API\ICMOdivelas\IcmOdivelas.WebAPI\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\DELL\OneDrive\Desktop\Projetos API\ICMOdivelas\IcmOdivelas.WebAPI\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
